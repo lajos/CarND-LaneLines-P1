@@ -59,17 +59,11 @@ The pipeline consists of the following steps:
 ![averaged lines](./writeup_images/smoothLines.png "averaged lines")
 ![averaged lines over image](./writeup_images/smoothLinesComp.png "averaged lines over image")
 
+* Videos are processed frame by frame. The lane lines are averaged over time to smooth the output.
+
+[![challenge video](./writeup_images/challengeVideo.png)](https://youtu.be/-k0B-H9hXd4?t=0s "challenge video")
 
 ![](./writeup_images/.png "")
-
-
-
-Based on what I learned in this section, I created a pipeline
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 
 
